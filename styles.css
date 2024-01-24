@@ -1,0 +1,67 @@
+@import url('reset.css');
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to top, grey, lightgrey, white, white) no-repeat;
+  background-size: auto; /* S'adapte à la taille du contenu */
+  padding: 20px 40px; /* Ajoute un espace de 50px en haut et en bas, 10px sur les côtés */
+}
+
+.logo {
+  width: 50%; /* Le logo occupe 50% de la largeur de la .header-content */
+  max-width: 100%; /* Pour s'assurer que le logo ne dépasse pas la largeur de la .header-content */
+  height: 100px; /* Ajuste la hauteur selon tes besoins */
+  object-fit: contain; /* Conserve les proportions de l'image en ajustant sa taille */
+}
+
+.game-image {
+  max-width: 90%;
+  height: auto;
+}
+
+.part1 {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fireIcon {
+  width: 10%; /* ou ajuste selon tes préférences */
+  max-width: 100%;
+  border-bottom: 2px solid red;
+}
+
+.title {
+  margin: 10px 0;
+  display: inline-block;
+  padding: 5px;
+  border-bottom: 2px solid red;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: italic;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.description {
+  margin: 10px 0;
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1.3;
+  white-space: pre-line;
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.age-img {
+  padding: 7%;
+  max-width: 60%;
+}
+
