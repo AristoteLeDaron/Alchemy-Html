@@ -105,3 +105,42 @@
   max-width: 35%;
   height: auto;
 }
+
+.part3 {
+  background: linear-gradient(to top, grey, lightgrey, white, white) no-repeat;
+  background-size: auto; /* S'adapte à la taille du contenu */
+  position: relative;
+  padding: 20px;
+}
+
+.darknessIcon {
+  width: 10%; /* ou ajuste selon tes préférences */
+  max-width: 100%;
+  border-bottom: 2px solid red; /* Souligne l'icône */
+}
+
+.subtitle {
+  font-weight: bold;
+  font-style: italic;
+  color: #333; /* Gris très foncé */
+  font-size: 1.2em;
+  margin: 10px 0;
+  border-bottom: 2px solid red;
+}
+
+.description {
+  max-width: 50%;
+  margin: 10px 0;
+  text-align: left;
+  line-height: 1;
+  font-size: 0.7em;
+  white-space: pre-line; /* Garde les retours à la ligne dans la description */
+}
+
+.mage-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 30%; /* Ajuste la largeur maximale de l'image selon tes besoins */
+  height: auto;
+}
