@@ -35,7 +35,7 @@
   line-height: 2;
 }
 
-.title {
+.title1 {
   margin: 0px 0;
   display: inline-block;
   padding: 5px;
@@ -47,7 +47,7 @@
   font-size: 1.1em;
 }
 
-.description {
+.description1 {
   margin: 10px 0;
   text-align: left;
   font-size: 0.8em;
@@ -76,13 +76,13 @@
   border-bottom: 2px solid red;
 }
 
-.text {
+.description2 {
   max-width: 60%;
   position: relative;
   padding: 5%;
 }
 
-.text::before {
+.description2::before {
   content: ''; /* Contenu vide nécessaire pour que les pseudo-éléments soient rendus */
   position: absolute;
   top: -5px; /* Ajuste selon l'espace en haut que tu veux dépasser */
@@ -92,7 +92,7 @@
   background-color: red;
 }
 
-.text::after {
+.description2::after {
   content: ''; /* Contenu vide nécessaire pour que les pseudo-éléments soient rendus */
   position: absolute;
   top: 5px; /* Ajuste selon l'espace en haut que tu veux dépasser */
@@ -119,7 +119,7 @@
   border-bottom: 2px solid red; /* Souligne l'icône */
 }
 
-.subtitle {
+.title3 {
   font-weight: bold;
   font-style: italic;
   color: #333; /* Gris très foncé */
@@ -128,7 +128,7 @@
   border-bottom: 2px solid red;
 }
 
-.description {
+.description3 {
   max-width: 50%;
   margin: 10px 0;
   text-align: left;
@@ -143,4 +143,38 @@
   right: 0;
   max-width: 30%; /* Ajuste la largeur maximale de l'image selon tes besoins */
   height: auto;
+}
+.part4 {
+  text-align: center;
+  padding: 20px;
+}
+
+.cloudIcon {
+  width: 10%; /* ou ajuste selon tes préférences */
+  max-width: 100%;
+}
+
+.part4-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title4 {
+  font-weight: bold;
+  font-style: italic;
+  color: #333; /* Gris très foncé */
+  font-size: 1.2em;
+  margin: 10px 0;
+  border-bottom: 2px solid red; /* Souligne uniquement la partie "avec qui vous voulez" */
+  width: 100%; /* Ajuste la largeur selon tes préférences */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description4 {
+  margin: 10px 0;
+  text-align: center; /* Ajuste la position du texte selon tes préférences */
+  line-height: 1.5;
+  white-space: pre-line;
 }
