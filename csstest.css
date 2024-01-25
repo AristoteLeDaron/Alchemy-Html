@@ -1,0 +1,25 @@
+.description2 {
+  max-width: 60%;
+  position: relative;
+  padding: 5%;
+}
+
+.description2::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  width: 2px;
+  height: calc(100% + 10px);
+  background: linear-gradient(to bottom, rgb(128, 0, 0), white);
+}
+
+.description2::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  width: calc(100% + 10px);
+  height: 2px;
+  background: linear-gradient(to right, rgb(128, 0, 0), white);
+}
